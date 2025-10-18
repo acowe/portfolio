@@ -32,11 +32,11 @@ function Academics(){
             </Row>
             <Row className={"justify-content-center mb-3"}>
                 <Col className={"col-7"}>
-                    <h4>Master’s of Computer Science </h4>
+                    <h4>PhD of Computer Science (with Master’s) </h4>
                     <h6>University of California, Davis - Davis, CA</h6>
                 </Col>
                 <Col className={"col-3 text-end"}>
-                  <div className={"fs-5"}>June 2025</div>
+                  <div className={"fs-5"}>June 2027</div>
                 </Col>
             </Row>
             <Row className={"justify-content-center mb-5"}>
@@ -67,10 +67,19 @@ function Academics(){
             </Row>
             <Row className={"justify-content-center mb-4"}>
                 <Col className={"col-6"}>
-                    <p>I am currently conducting research in scientific visualization as a graduate student researcher. 
-                        Under the guidance of students Qi Wu, Tyson Neuroth, and Professor Kwan-Liu Ma of UC Davis, along with Martin Rieth and Jacqueline Chen of Sandia National Laboratories, I aim to develop an interactive visualization system for multiscale analysis of turbulent combustion data.
+                    <p>I am doing research on and developing scientific visualizations as a graduate student researcher. Under the guidance of Professor Kwan-Liu Ma, senior VIDi students, and other scientists, I aim to develop interactive visualization systems for a variety of scientific applications.
+                        The topics I am currently working in are differentiable volume rendering and turbulence visualization.
+                        I co-developed and recently authored the visualization for the ArXiV publication “Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics” (2025) in collaboration with another VIDi student and turbulence scientists from Sandia National Laboratories and University of Houston.
                     </p>
-                    <p><a href={"https://vidi.cs.ucdavis.edu/"}>VIDI Labs</a></p>
+                    <p>Relevant Links</p>
+                    <ul>
+                        <li>
+                           <a href={"https://vidi.cs.ucdavis.edu/"}>VIDI Labs</a>
+                        </li>
+                        <li>
+                            <a href={"https://arxiv.org/abs/2506.23092"}>Publication</a>
+                        </li>
+                    </ul>
                 </Col>
                 <Col className={"col-4 text-end"}>
                     <img src={vidiLogo} className="img-fluid"/>
@@ -90,7 +99,7 @@ function Academics(){
                     <p>I worked as a research assistant under the guidance of Professor Thomas Yeh of UC Irvine (formerly Pomona College)
                         where I, along with several other students, assisted him in his research on computer architecture and machine learning.
                         In the first 2-3 weeks of the program, I co-authored Yeh's “Visualization with Experiential Learning to Encourage Participation and Research in Computer Architecture”, which discusses a
-                        curriculum for teaching advanced computer architecture concepts to beginner students using Logisim Evolution. This paper was presented at the Workshop on Computer Architecture Education (WCAE) in Orlando, Florida on June 2023 and then recently accepted into the Journal of the Association for Computing Machinery (ACM).
+                        curriculum for teaching advanced computer architecture concepts to beginner students using Logisim Evolution. This paper was presented at the Workshop on Computer Architecture Education (WCAE) in Orlando, Florida on June 2023 and accepted into the Journal of the Association for Computing Machinery (ACM).
                         For the remainder of the program, I helped run experiments for Yeh's research on optimizing machine learning architecture. There, I tested various configurations of pruning and quantization across multiple
                         machine learning architectures and datasets using PyTorch, compiling and analyzing the resultant data on remaining network weight and inference accuracy.
                     </p>
@@ -105,7 +114,6 @@ function Academics(){
                         <li>
                             <a href={"https://dl.acm.org/doi/10.1145/3605507.3610630"}>Publication</a>
                         </li>
-
                     </ul>
                 </Col>
                 <Col className={"col-4 text-end"}>
@@ -153,7 +161,13 @@ function Academics(){
                 <Col className={"col-4"}>
                 </Col>
             </Row>
-            <Row className={"justify-content-center mb-5"}>
+            <Row className={"justify-content-center mb-3"}>
+                <Col className={"col-10"}>
+                    <div> Arisa Cowe, Tyson Neuroth, Qi Wu, Martin Rieth, Jacqueline Chen, Myoungkyu Lee, Kwan-Liu Ma. 2025.
+                         Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics. <i>arXiv [cs.GR]</i> </div>
+                </Col>
+            </Row>
+             <Row className={"justify-content-center mb-5"}>
                 <Col className={"col-10"}>
                     <div>Thomas Y. Yeh, Maxwell Sterner, Carl Bell, and Arisa Cowe. 2023.
                         Visualization with Experiential Learning to Encourage Participation
@@ -162,6 +176,7 @@ function Academics(){
                         New York, NY, USA, 9 pages. (DOI: 10.1145/3605507.3610630) </div>
                 </Col>
             </Row>
+
 
         </Container>
 

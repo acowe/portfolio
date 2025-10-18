@@ -23,12 +23,17 @@ function Algomations(){
     });
     return (
         <Container fluid className={"p-0"}>
+            <Row className={"justify-content-center px-5 pt-5 mb-5"}>
+                <Col className={"col-4"}>
+                <h1 class={"text-center"}> Miscellanea </h1>
+                </Col>
+            </Row>
             <Row className={"justify-content-center pt-4 mb-5"}>
                 <Col className={"col-4 my-auto"}>
                     <img src={rodolph} alt="" className="img-fluid" style={{width: "500px"}}/>
                 </Col>
                 <Col className={"col-6 my-auto"}>
-                    <h1 className={"mb-3"}>Algomations</h1>
+                    <h2 className={"mb-3"}>[DEFUNCT] Algomations</h2>
                     <p className={"fs-2 lead"}>
                         A YouTube channel dedicated to teaching computer science and math through animated videos.
                     </p>
@@ -40,7 +45,7 @@ function Algomations(){
                         <FaYoutube size={25} />
                         <a className={"fs-5 ps-1"} href={"https://www.youtube.com/channel/UCp86BHgrNuCsIVAmkiuEeXg"}>Link to channel</a>
                     </span>
-                    <h2>Why Algomations?</h2>
+                    <h3>Why Algomations?</h3>
                     <p className={"fs-5 fw-normal"}>
                         Since I was young, I've enjoyed learning about various STEM topics through online media like Wikipedia and YouTube.
                         I was particularly drawn to math and, then, computer science when I became interested in programming.

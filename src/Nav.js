@@ -49,13 +49,14 @@ function NavBar() {
                 <Container>
                     <Row>
                         <Col>
-                            <Link id={"algomations"} to={"/algomations"} className={"nav-custom tab"}>
-                                Algomations
-                            </Link>
-                        </Col>
-                        <Col>
                             <Link id={"illustrations"} to={"/illustrations"} className={"nav-custom tab"}>
                                 Gallery
+                            </Link>
+                            
+                        </Col>
+                        <Col>
+                            <Link id={"algomations"} to={"/algomations"} className={"nav-custom tab"}>
+                                Other
                             </Link>
                         </Col>
                     </Row>

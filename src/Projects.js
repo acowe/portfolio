@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import React, {useEffect, useRef} from 'react';
 import ReactPlayer from 'react-player';
 import tcv_vid from "./tcv_video.mp4";
+import glyphfig from "./Figure_8.png"
 import nce_poster from "./NCE_poster.jpg"
 import gscal from "./gscal_demo.mp4"
 import ekn_poster from "./NCE_poster.pdf"
@@ -34,6 +35,29 @@ function Projects() {
             </Row>
             <Row className={"justify-content-center mb-5"}>
                 <Col className={"col-5 pe-5 my-auto"}>
+                    <h3>Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics</h3>
+                    <h4>(Master's Thesis)</h4>
+                    <p> Many multi-physical scientific and engineering problems involving span a wide range of physical scales. 
+                        Understanding the interactions across these scales is essential for fully comprehending such complex problems. 
+                        However, visualizing multivariate, multiscale data within an integrated view where correlations across space, scales, and fields are easily perceived remains challenging. 
+                        To address this, we introduce a novel local spatial statistical visualization of flow fields across multiple fields and turbulence scales. 
+                        Our method leverages the curvelet transform for scale decomposition of fields of interest, a level-set-restricted centroidal Voronoi tessellation to partition the spatial domain into local regions for statistical aggregation, 
+                        and a set of glyph designs that combines information across scales and fields into a single, or reduced set of perceivable visual representations. 
+                        Each glyph represents data aggregated within a Voronoi region and is positioned at the Voronoi site for direct visualization in a 3D view centered around flow features of interest. 
+                        We implement and integrate our method into an interactive visualization system where the glyph-based technique operates in tandem with linked 3D spatial views and 2D statistical views, supporting a holistic analysis. 
+                        We demonstrate with case studies visualizing turbulent combustion data--multi-scalar compressible flows--and turbulent incompressible channel flow data. 
+                        This new capability enables scientists to better understand the interactions between multiple fields and length scales in turbulent flows.
+                    </p>
+                    <a href={"https://arxiv.org/abs/2506.23092"}>Publication</a>
+                </Col>
+                <Col className={"col-5 text-end"}>
+                    <div>
+                        <img src={glyphfig} className="img-fluid"/>
+                    </div>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-5"}>
+                <Col className={"col-5 pe-5 my-auto"}>
                     <h3>Turbulent Combustion Visualization</h3>
                     <p> For my final project in Information Visualization (ECS272), a fellow classmate and I were tasked with building a visualization system
                         for visualizing a large volumetric turbulent combustion dataset to effectively show important spatial statistical features and behavior of a premixed flame.
@@ -50,7 +74,7 @@ function Projects() {
                     </div>
                 </Col>
             </Row>
-            <Row className={"justify-content-center mb-5"}>
+            <Row className={"justify-content-center mb-6"}>
                 <Col className={"col-5 my-auto"}>
                     <h3>Timesheets for EKN Engineering</h3>
                     <p> For my clinic project (Harvey Mudd College's senior capstone project), I colloborated with four other students and liasons from EKN Engineering
