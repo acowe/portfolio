@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d5d89617.css",
-    "main.js": "/portfolio/static/js/main.34c7b00d.js",
+    "main.js": "/portfolio/static/js/main.ad1ef275.js",
     "reactPlayerYouTube.js": "/portfolio/static/js/reactPlayerYouTube.761d2ca3.chunk.js",
     "reactPlayerSoundCloud.js": "/portfolio/static/js/reactPlayerSoundCloud.fc6de9a9.chunk.js",
     "reactPlayerVimeo.js": "/portfolio/static/js/reactPlayerVimeo.8808c6b2.chunk.js",
@@ -19,8 +19,8 @@
     "static/js/453.d16f1b99.chunk.js": "/portfolio/static/js/453.d16f1b99.chunk.js",
     "static/media/gscal_demo.mp4": "/portfolio/static/media/gscal_demo.0a3a0b394d91ed76a5bd.mp4",
     "static/media/tcv_video.mp4": "/portfolio/static/media/tcv_video.9b401f0497f06f9c503e.mp4",
-    "static/media/Figure_8.png": "/portfolio/static/media/Figure_8.936e9557b44e33bf4c54.png",
     "static/media/friendly_shadows.jpg": "/portfolio/static/media/friendly_shadows.580ff0f88bdc9c12b3e8.jpg",
+    "static/media/case_study.png": "/portfolio/static/media/case_study.a668f32027af262d648b.png",
     "static/media/cybervsr_photo.png": "/portfolio/static/media/cybervsr_photo.b9e50e26953ece8f4865.png",
     "static/media/NCE_poster.jpg": "/portfolio/static/media/NCE_poster.0c77e5e349d422a16a34.jpg",
     "static/media/Da_Lynel_Link.jpg": "/portfolio/static/media/Da_Lynel_Link.3e7e7cd527826bc476ff.jpg",
@@ -54,7 +54,7 @@
     "static/media/sparse-matrix.png": "/portfolio/static/media/sparse-matrix.7b9c65dab540098749a5.png",
     "index.html": "/portfolio/index.html",
     "main.d5d89617.css.map": "/portfolio/static/css/main.d5d89617.css.map",
-    "main.34c7b00d.js.map": "/portfolio/static/js/main.34c7b00d.js.map",
+    "main.ad1ef275.js.map": "/portfolio/static/js/main.ad1ef275.js.map",
     "reactPlayerYouTube.761d2ca3.chunk.js.map": "/portfolio/static/js/reactPlayerYouTube.761d2ca3.chunk.js.map",
     "reactPlayerSoundCloud.fc6de9a9.chunk.js.map": "/portfolio/static/js/reactPlayerSoundCloud.fc6de9a9.chunk.js.map",
     "reactPlayerVimeo.8808c6b2.chunk.js.map": "/portfolio/static/js/reactPlayerVimeo.8808c6b2.chunk.js.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.d5d89617.css",
-    "static/js/main.34c7b00d.js"
+    "static/js/main.ad1ef275.js"
   ]
 }
