@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d5d89617.css",
-    "main.js": "/portfolio/static/js/main.79982068.js",
+    "main.js": "/portfolio/static/js/main.e20c578f.js",
     "reactPlayerYouTube.js": "/portfolio/static/js/reactPlayerYouTube.761d2ca3.chunk.js",
     "reactPlayerSoundCloud.js": "/portfolio/static/js/reactPlayerSoundCloud.fc6de9a9.chunk.js",
     "reactPlayerVimeo.js": "/portfolio/static/js/reactPlayerVimeo.8808c6b2.chunk.js",
@@ -28,6 +28,7 @@
     "static/media/DC_Fanart.jpg": "/portfolio/static/media/DC_Fanart.b51aef95eb596dfa1531.jpg",
     "static/media/NCE_poster.pdf": "/portfolio/static/media/NCE_poster.f2b933b5d734035a9d51.pdf",
     "static/media/A_Cat_Boi.jpg": "/portfolio/static/media/A_Cat_Boi.22169a768fe9c315ca1d.jpg",
+    "static/media/ee_vis.png": "/portfolio/static/media/ee_vis.b23c426e614ad06c5a2b.png",
     "static/media/lil'catepillar.png": "/portfolio/static/media/lil'catepillar.844cec9bc22b64da56c8.png",
     "static/media/the_bird.png": "/portfolio/static/media/the_bird.21ba7e1b0930d7b10173.png",
     "static/media/Farmer_Sheep.jpg": "/portfolio/static/media/Farmer_Sheep.825be8ac82244c504320.jpg",
@@ -52,9 +53,10 @@
     "static/media/MATH171_Final_Project.pdf": "/portfolio/static/media/MATH171_Final_Project.364b15ddcfb600e83941.pdf",
     "static/media/rainbow_heart.jpg": "/portfolio/static/media/rainbow_heart.b80892d903443d93e278.jpg",
     "static/media/sparse-matrix.png": "/portfolio/static/media/sparse-matrix.7b9c65dab540098749a5.png",
+    "static/media/ee_bulge.png": "/portfolio/static/media/ee_bulge.9843c3f91dfb1bbae709.png",
     "index.html": "/portfolio/index.html",
     "main.d5d89617.css.map": "/portfolio/static/css/main.d5d89617.css.map",
-    "main.79982068.js.map": "/portfolio/static/js/main.79982068.js.map",
+    "main.e20c578f.js.map": "/portfolio/static/js/main.e20c578f.js.map",
     "reactPlayerYouTube.761d2ca3.chunk.js.map": "/portfolio/static/js/reactPlayerYouTube.761d2ca3.chunk.js.map",
     "reactPlayerSoundCloud.fc6de9a9.chunk.js.map": "/portfolio/static/js/reactPlayerSoundCloud.fc6de9a9.chunk.js.map",
     "reactPlayerVimeo.8808c6b2.chunk.js.map": "/portfolio/static/js/reactPlayerVimeo.8808c6b2.chunk.js.map",
@@ -73,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.d5d89617.css",
-    "static/js/main.79982068.js"
+    "static/js/main.e20c578f.js"
   ]
 }
