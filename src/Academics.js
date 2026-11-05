@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Link} from "react-router-dom"
 import {Row,Col,Container} from "react-bootstrap";
 import sparseMat from "./sparse-matrix.png"
 import iscaLogo from "./ISCA_2023.png"
@@ -32,11 +33,11 @@ function Academics(){
             </Row>
             <Row className={"justify-content-center mb-3"}>
                 <Col className={"col-7"}>
-                    <h4>PhD of Computer Science (with Master’s) </h4>
+                    <h4>Master of Science in Computer Science</h4>
                     <h6>University of California, Davis - Davis, CA</h6>
                 </Col>
                 <Col className={"col-3 text-end"}>
-                  <div className={"fs-5"}>June 2027</div>
+                  <div className={"fs-5"}>June 2026</div>
                 </Col>
             </Row>
             <Row className={"justify-content-center mb-5"}>
@@ -51,9 +52,54 @@ function Academics(){
             </Row>
             <Row className={"justify-content-center mb-3"}>
                 <Col className={"col-7"}>
+                    <h1>Publications</h1>
+                </Col>
+                <Col className={"col-4"}>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-3"}>
+                <Col className={"col-10 fs-5"}>
+                    <p><b>Cowe, A.</b>, Neuroth, T., Wu, Q., Rieth, M., Chen, J., Lee, M. and Ma, K.-L. (2026), Glyph-Based Multi-Scale Visualization of Spatial Turbulent Multi-Physics Statistics. In <i>Computer Graphics Forum (Electronic Issue e70399)</i>. DOI: 10.1111/cgf.70399</p>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-5"}>
+                <Col className={"col-10 fs-5"}>
+                    <p>Yeh, T., Sterner M., Bell C., and <b>Cowe, A.</b> (2023). Visualization with Experiential Learning to Encourage Participation and Research in Computer Architecture. In <i>Proceedings of Workshop on Computer Architecture Education (WCAE ’23)</i>. ACM, New York, NY, USA, 9 pages. DOI: 10.1145/3605507.3610630 </p>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-3"}>
+                <Col className={"col-7"}>
                     <h1>Research</h1>
                 </Col>
                 <Col className={"col-4"}>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-3"}>
+                <Col className={"col-6"}>
+                    <h4>Digital Fabrication Research at UC Davis</h4>
+                    <h6 className={""}>Davis, CA</h6>
+                </Col>
+                <Col className={"col-4 text-end"}>
+                    <div className={"fs-5"}>August - September 2026</div>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-4"}>
+                <Col className={"col-10"}>
+                    <p>As a graduate student research assistant under the guidance of Professor Julian Panetta at UC Davis, I supported his research on developing computational design tools for 3D-printable engineered materials.
+                    Using VoxelFEM-based simulations, we explored how a structure composed of microstructure tiles behaves as the tiling grid size increases, with respect to boundary conditions, gravity, and applied forces. 
+                    We wanted to understand how the top-middle tile behaves across grid sizes to develop a generalizable periodic tile that could be used as a stand-in for simulating these larger structures, which would reduce computational overhead. 
+                    For this exploration, we set up microstructure tiling experiments, running simulations to compute the elastic energy and displacement in the structures with different tiling grid sizes, boundary conditions, and material densities. 
+                    The results were then visualized using an <Link id={"projects"} to={"/projects"}>interactive python notebook</Link>, revealing how global boundary conditions affect the displacement and energy in the top-middle tile, and introduced a significant consideration that was unaccounted for prior in developing the generalizable tile.
+                    </p>
+                    <p>Relevant Links</p>
+                    <ul>
+                        <li>
+                           <a href={"https://julianpanetta.com/"}>Julian Panetta's Website</a>
+                        </li>
+                        <li>
+                            <a href={"https://github.com/MeshFEM/VoxelFEM"}>VoxelFEM Repository</a>
+                        </li>
+                    </ul>
                 </Col>
             </Row>
             <Row className={"justify-content-center mb-3"}>
@@ -62,14 +108,13 @@ function Academics(){
                     <h6 className={""}>Davis, CA</h6>
                 </Col>
                 <Col className={"col-4 text-end"}>
-                    <div className={"fs-5"}>September 2023 - Current</div>
+                    <div className={"fs-5"}>September 2023 - June 2026</div>
                 </Col>
             </Row>
             <Row className={"justify-content-center mb-4"}>
                 <Col className={"col-6"}>
-                    <p>I am doing research on and developing scientific visualizations as a graduate student researcher. Under the guidance of Professor Kwan-Liu Ma, senior VIDi students, and other scientists, I aim to develop interactive visualization systems for a variety of scientific applications.
-                        The topics I am currently working in are differentiable volume rendering and turbulence visualization.
-                        I co-developed and recently authored the visualization for the ArXiV publication “Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics” (2025) in collaboration with another VIDi student and turbulence scientists from Sandia National Laboratories and University of Houston.
+                    <p>I conducted research in scientific visualization as a graduate student researcher in the Visualization and Interface Design Innovation (VIDi) Lab at UC Davis under the guidance of Professor Kwan-Liu Ma. My work focused on developing interactive visualization systems for scientific applications, with emphasis on turbulent flow visualization.
+                        There, I authored “Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics” (2025), developed in collaboration with VIDi researchers and turbulence scientists from Sandia National Laboratories and the University of Houston. This work explored multiscale visualization techniques for analyzing complex turbulent datasets.
                     </p>
                     <p>Relevant Links</p>
                     <ul>
@@ -77,7 +122,7 @@ function Academics(){
                            <a href={"https://vidi.cs.ucdavis.edu/"}>VIDI Labs</a>
                         </li>
                         <li>
-                            <a href={"https://arxiv.org/abs/2506.23092"}>Publication</a>
+                            <a href={"https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70399"}>Publication</a>
                         </li>
                     </ul>
                 </Col>
@@ -154,28 +199,7 @@ function Academics(){
                     <img src={vsrPic} className="img-fluid"/>
                 </Col>
             </Row>
-            <Row className={"justify-content-center mb-3"}>
-                <Col className={"col-7"}>
-                    <h1>Publications</h1>
-                </Col>
-                <Col className={"col-4"}>
-                </Col>
-            </Row>
-            <Row className={"justify-content-center mb-3"}>
-                <Col className={"col-10"}>
-                    <div> Arisa Cowe, Tyson Neuroth, Qi Wu, Martin Rieth, Jacqueline Chen, Myoungkyu Lee, Kwan-Liu Ma. 2025.
-                         Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics. <i>arXiv [cs.GR]</i> </div>
-                </Col>
-            </Row>
-             <Row className={"justify-content-center mb-5"}>
-                <Col className={"col-10"}>
-                    <div>Thomas Y. Yeh, Maxwell Sterner, Carl Bell, and Arisa Cowe. 2023.
-                        Visualization with Experiential Learning to Encourage Participation
-                        and Research in Computer Architecture. In <i>Proceedings of Workshop
-                        on Computer Architecture Education (WCAE ’23)</i>. ACM,
-                        New York, NY, USA, 9 pages. (DOI: 10.1145/3605507.3610630) </div>
-                </Col>
-            </Row>
+            
 
 
         </Container>

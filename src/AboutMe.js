@@ -9,20 +9,19 @@ function AboutMe(){
                 <div className={"fs-5 fw-normal"}>
                     <h2 className={"mb-3"}>More About Me</h2>
                     <p>
-                        As someone who's into all things visual and interactive, I'm drawn to various topics in CS including but not limited to: </p>
+                        As someone who's passionate about all things visual and interactive, I'm particularly interested in using data science and analytics to uncover insights and communicate them through intuitive, engaging visual experiences. My interests span: </p>
                     <ul>
+                        <li>Data science and analytics</li>
+                        <li>Scientific and information visualization</li>
+                        <li>Human-computer interaction</li>
+                        <li>Computer graphics</li>
                         <li>UI/UX design and development</li>
-                        <li>interactive visualizations</li>
-                        <li>human-computer interaction</li>
-                        <li>computer graphics</li>
                     </ul>
                     <p>
-                        In the past, I've designed and developed several applications for visualizing information,
-                        from volumetric combustion data school assignment schedules. I've also conducted research in the fields of
-                        computer architecture, machine learning, and cybersecurity in the past. In pursuing my PhD, and any other opportunity along the way, I hope learn more (and maybe teach) about the topics outlined above and, more importantly, develop engaging yet effective visual
-                        software to make complex computations, technologies, and information more accessible to a wider audience of users.
+                        Throughout my academic career, I've developed applications and conducted research focused on making complex information more accessible and understandable. My work has ranged from visualizing volumetric simulations to building interactive tools, with research spanning scientific visualization, differentiable rendering, and computer architecture education.
+                        Looking ahead, I hope to continue exploring data science, analytics, and visualization while developing interactive systems that transform complex data into meaningful insights and experiences.
                     </p>
-                    <p className={"mb-4"}>In my free time, I enjoy drawing as well as immersing myself in video games, graphic novels, and animated series/works from other independent creators.</p>
+                    <p className={"mb-4"}>Outside of computing, I enjoy drawing as well as immersing myself in video games, graphic novels, and animated series/works from other independent creators.</p>
                 </div>
             </Col>
         </Row>

@@ -3,10 +3,12 @@ import {Link} from "react-router-dom"
 import React, {useEffect, useRef} from 'react';
 import ReactPlayer from 'react-player';
 import tcv_vid from "./tcv_video.mp4";
-import glyphfig from "./Figure_8.png"
+import glyphfig from "./case_study.png"
 import nce_poster from "./NCE_poster.jpg"
 import gscal from "./gscal_demo.mp4"
 import ekn_poster from "./NCE_poster.pdf"
+import ee_vis from "./ee_vis.png"
+import ee_bulge from "./ee_bulge.png"
 import aa_final from "./MATH171_Final_Project.pdf"
 
 function Projects() {
@@ -28,32 +30,53 @@ function Projects() {
         console.log(selected)
     });
     return(
-        <Container fluid className={"pt-4 px-5"}>
+        <Container fluid className={"pt-4 px-3"}>
             <Row className={"justify-content-center mb-4"}>
                 <Col className={"col-7"}><h1>Featured Projects</h1></Col>
                 <Col className={"col-4"}></Col>
             </Row>
             <Row className={"justify-content-center mb-5"}>
-                <Col className={"col-5 pe-5 my-auto"}>
+                <Col className={"col-4 pe-5 my-auto"}>
                     <h3>Glyph-Based Multiscale Visualization of Turbulent Multi-Physics Statistics</h3>
-                    <h4>(Master's Thesis)</h4>
-                    <p> Many multi-physical scientific and engineering problems involving span a wide range of physical scales. 
-                        Understanding the interactions across these scales is essential for fully comprehending such complex problems. 
-                        However, visualizing multivariate, multiscale data within an integrated view where correlations across space, scales, and fields are easily perceived remains challenging. 
-                        To address this, we introduce a novel local spatial statistical visualization of flow fields across multiple fields and turbulence scales. 
-                        Our method leverages the curvelet transform for scale decomposition of fields of interest, a level-set-restricted centroidal Voronoi tessellation to partition the spatial domain into local regions for statistical aggregation, 
-                        and a set of glyph designs that combines information across scales and fields into a single, or reduced set of perceivable visual representations. 
-                        Each glyph represents data aggregated within a Voronoi region and is positioned at the Voronoi site for direct visualization in a 3D view centered around flow features of interest. 
-                        We implement and integrate our method into an interactive visualization system where the glyph-based technique operates in tandem with linked 3D spatial views and 2D statistical views, supporting a holistic analysis. 
-                        We demonstrate with case studies visualizing turbulent combustion data--multi-scalar compressible flows--and turbulent incompressible channel flow data. 
-                        This new capability enables scientists to better understand the interactions between multiple fields and length scales in turbulent flows.
-                    </p>
-                    <a href={"https://arxiv.org/abs/2506.23092"}>Publication</a>
+                    <h4>(Master's Project, Accepted to Computer Graphics Forum, Presented at EuroVis 2026)</h4>
                 </Col>
-                <Col className={"col-5 text-end"}>
+                <Col className={"col-6 text-end"}>
                     <div>
                         <img src={glyphfig} className="img-fluid"/>
                     </div>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-5"}>
+                <Col className={"col-10 pe-5 my-auto"}>
+                    <p> Many multi-physical scientific and engineering problems involving span a wide range of physical scales. 
+                        Understanding the interactions across these scales is essential for fully comprehending such complex problems. 
+                        However, visualizing multivariate, multiscale data within an integrated view where correlations across space, scales, and fields are easily perceived remains challenging. 
+                        To address this, We introduce a visualization combining information across scales and variables using symbolic glyphs. These glyphs are displayed in a 3D spatial-statistical context, summarizing information along volume surfaces, constituting a novel application that
+                        enables direct comparison of multiple variables and scales with the underlying surface geometry, links scale dependence to the local surface topology of flow structures, providing valuable insight on their behavior across scales within a multi-physical space, and enables a data reduction strategy that makes multiscale visualization more feasible across larger datasets.
+                    </p>
+                    <a href={"https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70399"}>Publication</a>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-2"}>
+                <Col className={"col-10 pe-5 my-auto"}>
+                    <h3>Interactive Microstructure Energy and Displacement Visualization</h3>
+                    <p> To understand how displacements and elastic energy are distributed within 
+                        a microstructure tiling, I developed a jupyter notebook that generates visualizations 
+                        for both from simulation data. Using matplotlib, elastic energy is visualized with a scalar 
+                        field plots (pictured below) while displacements are visualized with a deformable grid plot. 
+                        The notebook also integrates iPython widgets that interactively change the plot shown by simulation 
+                        and grid size, enabling comparative analysis of results across different experiments. Such 
+                        comparisons revealed the influence of global boundary conditions (bottom-right) on the top-middle tile, 
+                        manifesting as a bulge in the top-middle tile's energy distribution (bottom-left).
+                    </p>
+                </Col>
+            </Row>
+            <Row className={"justify-content-center mb-5"}>
+                <Col className={"col-5 my-auto"}>
+                    <img src={ee_vis} className="img-fluid"/>
+                </Col>
+                <Col className={"col-5 my-auto"}>
+                    <img src={ee_bulge} className="img-fluid"/>
                 </Col>
             </Row>
             <Row className={"justify-content-center mb-5"}>
@@ -88,13 +111,12 @@ function Projects() {
                         then turned in our final deliverables and documentation to EKN Engineering.
                     </p>
                     <a href={ekn_poster}>Clinic Poster (pdf)</a>
-
                 </Col>
                 <Col className={"col-5 ps-5 text-center my-auto"}>
                     <img src={nce_poster} className="img-fluid"/>
                 </Col>
             </Row>
-            <Row className={"justify-content-center mb-5"}>
+            <Row className={"justify-content-center my-5"}>
                 <Col className={"col-5 pe-5"}>
                     <h3>Gradescope Calendar</h3>
                     <p> For Harvey Mudd College's Summer StartUp Program 2022, I collaborated with two other students to conceptualize, design, and build Gradescope Calendar.

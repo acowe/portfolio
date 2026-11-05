@@ -21,13 +21,14 @@ function Home(){
             <Row className={"justify-content-center pt-4 mb-5"}>
                 <Col className={"col-6 my-auto"}>
                     <h1 className={"mb-3"}>Hello!</h1>
-                    <p className={"fs-2 lead"}> I'm Arisa Cowe, a third-year PhD student at
-                        UC Davis and a graduate from Harvey Mudd College with a passion for computer science,
-                        mathematics, and art.
+                    <p className={"fs-2 lead"}> I'm Arisa Cowe, a Master's graduate from
+                        UC Davis and an alumna of Harvey Mudd College with a passion for computer science, mathematics, and art.
+
+
                     </p>
                     <p className={"fs-4 lead mb-5"}>
-                        This site serves as a showcase of my collective work in academia, programming, and illustration.
-                        Feel free to check out the pages above to see what I have been up to!
+                        This site serves as a showcase to my research, software projects, and creative work.
+                        Feel free to check out the pages above to see what I have been working on!
                     </p>
                 </Col>
                 <Col className={"col-4 my-auto text-end"}>
