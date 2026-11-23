@@ -54,7 +54,10 @@ function Projects() {
                         To address this, We introduce a visualization combining information across scales and variables using symbolic glyphs. These glyphs are displayed in a 3D spatial-statistical context, summarizing information along volume surfaces, constituting a novel application that
                         enables direct comparison of multiple variables and scales with the underlying surface geometry, links scale dependence to the local surface topology of flow structures, providing valuable insight on their behavior across scales within a multi-physical space, and enables a data reduction strategy that makes multiscale visualization more feasible across larger datasets.
                     </p>
-                    <a href={"https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70399"}>Publication</a>
+                    <ul>
+                        <li><a href={"https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70399"}>Publication</a></li>
+                        <li><a href={"https://youtu.be/wIKP7BWQQ3E"}>Demo Video</a></li>
+                    </ul>
                 </Col>
             </Row>
             <Row className={"justify-content-center mb-2"}>
